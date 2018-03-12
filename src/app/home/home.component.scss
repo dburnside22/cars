@@ -1,0 +1,56 @@
+.parallax{
+  background-image: url(/assets/moss-334062-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 37%;
+}
+
+.parallax2{
+  background-image: url(/assets/robin-vet-219446-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75%;
+}
+.blocks{
+  img{
+    height: 50%;
+  }
+}
+.quotes{
+  background: #000;
+}
+.name{
+  font-size: 25px;
+  margin-right: 25%;
+}
+
+@media (min-width:600px){
+  .parallax{
+    height: 50%;
+  }
+  .parallax2{
+    height: 65%;
+  }
+}
+@media (min-width:800px){
+  .parallax{
+    height: 75%;
+  }
+}
+@media (min-width:1200px){
+  .parallax{
+    height: 100%;
+  }
+  .blocks{
+    img{
+      height: 65%;
+    }
+  }
+  .parallax2{
+    height: 75%;
+  }
+}
